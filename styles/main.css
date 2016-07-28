@@ -1,0 +1,137 @@
+h1 {
+	margin: 0;
+}
+
+.box {
+	box-sizing: border-box;
+
+}
+
+.box--float-left {
+	float: left;
+}
+
+.box--float-right {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.hero-image {
+	background-image: url("../images/coworking.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid black;
+}
+
+.hero-box {
+	width: 34%;
+	background-color: rgba(204,204,204, 0.8);
+	margin: 3%;
+	text-align: LEFT;
+	border: 1px solid black;
+	min-height: 350px;
+	line-height: 1.5;
+	padding: 2%;
+}
+
+.article-row {
+	margin: 10px 0;
+	border: none;
+}
+
+.article-box {
+	width: 33.3333333%;
+	padding: 10px;
+	border: none;
+	border-right: 1px solid #ccc;
+}
+
+.headfoot {
+	background-color: black;
+	color: white;
+	font-family: arial, serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.header-nav {
+	color: white;
+	padding: 15px;
+	margin: 15px;
+
+}
+
+.header {
+	border-bottom: 3px solid yellow;
+	padding: 15px;
+}
+
+.footer {
+ 	padding: 1px;
+
+}
+
+.logo {
+	font-family: times;
+	font-weight: bold;
+	color: yellow;
+}
+
+.tagline {
+	font-family: times, serif;
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+	background: #C6C6C6;
+	padding: 3px;
+	
+}
+
+#are {
+	border-bottom: 3px solid yellow;
+	text-decoration: none;
+}
+
+.button {
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background: yellow;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 12px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	border-radius: 5px;
+	margin: 20px;
+}
+.button2 {
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background: #C6C6C6;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 12px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	border-radius: 5px;
+	margin: 15px;
+}
+
+.boxtext {
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	line-height: 1.5;
+}
